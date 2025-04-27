@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Dashboard/WeatherDashboard';
+import WeatherDashboard from './Dashboard/WeatherDashboard';
 import reportWebVitals from './reportWebVitals';
+// import WeatherDashboard from './Dashboard/WeatherDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <WeatherDashboard />
   </React.StrictMode>
 );
 

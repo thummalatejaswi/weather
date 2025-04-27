@@ -1,0 +1,12 @@
+.daily-weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* width: 70%; */
+}
+
+p {
+  margin: 0.5em 0;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  font-size: 20px;
+}

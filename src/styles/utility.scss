@@ -1,0 +1,67 @@
+@import "../styles/variables.scss";
+
+.flex{
+    display: flex;
+  }
+
+
+  .flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+
+  .flex-column{
+    flex-direction: column !important;
+  }
+
+  .list-none{
+    list-style-type: none;
+  }
+
+  .overflow-x{
+    overflow-x: scroll;
+  }
+
+  .gap-lg{
+    gap: $spacing-lg;
+  }
+
+  .grid{
+    display: grid;
+  }
+
+  .grid-template-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .border-radius-xxl{
+    border-radius: $spacing-xxl;
+  }
+
+  .d-contents{
+    display: contents;
+  }
+
+  .justify-centre{
+    justify-content: center;
+  }
+
+  .font-sm{
+    font-size: $spacing-sm ;
+  }
+
+  .font-wt-smd{
+    font-weight: 500;
+  }
+
+  .align-centre{
+    align-items: center;
+  }
+
+  .mt-0 {
+    margin-top: 0px;
+  }
+
+  img{
+    width: 32px;
+    height: fit-content;
+  }
